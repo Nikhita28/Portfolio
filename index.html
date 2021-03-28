@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nikhita's PortFolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="ext.js" language="javascript"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    
+</head>
+<body>
+    <!-- Creating Menu Tabs & Logo at Top Using HTML -->
+    <header>
+        <a href="#" class="logo">Portfolio</a>
+        <div class="toggle" onclick="toggleMenu();"></div>
+        <ul class="menu">
+        
+            <li><a href="#about" onclick="toggleMenu();">About</a></li>
+            <li><a href="#services" onclick="toggleMenu();">Tech Stack</a></li>
+            <li><a href="#work" onclick="toggleMenu();">Projects</a></li>
+            <li><a href="#contact" onclick="toggleMenu();">Contact</a></li>
+        </ul>
+    </header>
+
+    <!-- Creating Banner Layout in HTML -->
+    <section class="banner" id="home">
+        <div class="textBx">
+            <h2>Hello, I'm <span class="wave">👋</span><br> <span>Nikhita</span></h1></h2>
+            <h3>I'm an Engineering student.</h3>
+            <a href="#about" class="btn">About Me</a>
+        </div>
+    </section>
+
+    <!-- Creating About Me Layout in HTML -->
+    <section class="about" id="about">
+        <div class="heading">
+            <p>Get to Know me</p>
+            <h2>About Me</h2>
+        </div>
+        <div class="content">
+            <div class="w50">
+                <img src="images/mp.jpg" alt="" class="proPic">
+            </div>
+            <div class="contentBx w50">
+                <h3>Who am i?</h3>
+                <h2>I'm <b>V Nikhita</b>, a programming enthusiast</h2>
+                <p>Dedicated and efficient Front-end developer with experience in HTML, CSS, Javascript. </p>
+                <p>I am currently trying my hand at web development and open source. I am also starting with competetive programming</p>
+                <p>I am a 1st year undergraduate in Computer Science engineering from Jalpaiguri Government Engineering College.</p>
+                <div class="heading bottom">
+                    <div class="bt">
+                        <b>Name:</b> V Nikhita<br>
+                        <b>Age:</b> 18
+                    </div>
+                    <div class="bt">
+                        <b>Email:</b> vnikhita28@gmail.com<br>
+                        <b>Location:</b> INDIA
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Creating Services Layout in HTML -->
+    <section class="services" id="services">
+        <div class="heading white">
+            <h2>Tech Stack & Skills</h2>
+            <p> i work with</p>
+        </div>
+        <div class="content">
+            <div class="servicesBx">
+                <i class="fa fa-html5 fa-4x fahover"></i>
+                <h3>HTML & HTML5</h3>
+                <p>Div, Span, Form, Layouts, Tables, Lists, Semantic tags</p>
+            </div>
+            <div class="servicesBx">
+                <i class="fa fa-css3 fa-4x"></i>
+                <h3>CSS</h3> 
+                <p>Css-styling, Flexbox, Grid, Transitions, Float, Animations, Respponsive design</p>
+            </div>
+            <div class="servicesBx">
+                <i class="fa fa-file-code-o fa-4x fahover"></i>
+                <h3>Javascript</h3>
+                <p>ES6,Document Object Model, JSON</p>
+            </div>
+            <div class="servicesBx">
+                <i class="fa fa-github fa-4x fahover"></i>
+                <h3>git & github</h3>
+                <p>Have sound knowledge of working with git and github</p>
+            </div>
+            <div class="servicesBx">
+                <i class="fa fa-file-code-o fa-4x fahover"></i>
+                <h3>C++</h3>
+                <p>Have knowledge about C++ basics and currently leaning DSA</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Creating Work Layout in HTML -->
+
+    <section class="work" id="work">
+        <div class="heading">
+            <h2 class="projects">projects</h2>
+            <p class="project__descp">Showcasing some of my <b>projects</b></p>
+        </div>
+        <div class="content">
+            <div class="workBx">
+                <a href="https://github.com/Nikhita28/Sorting-visualizer" target="_blank">
+                    <img src="images/pro.png" alt="">
+                    <p class="workbx__p"><b>Sorting Visualizer</b></p>
+                </a>
+            </div>
+            <div class="workBx">
+                <a href="" target="_blank">
+                    <img src="images/pro.png" alt="">
+                    <p class="workbx__p"><b>Personal Portfolio</b></p>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Creating Contact Layout in HTML -->
+    <section class="contact" id="contact">
+        <div class="heading white">
+            <p>Feel free to contact me anytimes</p>
+            <h2>Get in Touch</h2>
+        </div>
+        <div class="content">
+            <div class="contactInfo">
+                <h3>Contact Info</h3>
+                <p>Always ready for any learning opportunity<br> Feel free to contact me!</p>
+                <div class="contactInfoBx">
+                    <div class="box">
+                        <div class="icon">
+                            <i class="fa fa-map-marker"></i>
+                        </div>
+                        <div class="text">
+                            <h3>Address</h3>
+                            <p>Kharagpur, West Bengal<br>India, 721301</p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="icon">
+                            <i class="fa fa-phone"></i>
+                        </div>
+                        <div class="text">
+                            <h3>Phone no :</h3>
+                            <p>7680012804</p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="icon">
+                            <i class="fa fa-envelope-o"></i>
+                        </div>
+                        <div class="text">
+                            <h3>Email Address</h3>
+                            <p>vnikhita28@gmail.com</p>
+                        </div>
+                    </div>
+                    <br>
+                    <h3>Social Connect</h3>
+                    <div class="boxSocial">
+                        <div class="icon">
+                            <a href="https://www.linkedin.com/in/v-nikhita-5463701ba/" target="_blank">
+                                <i class="fa fa-linkedin-square"></i>
+                            </a>
+                        </div>
+                        <div class="icon">
+                            <a href="https://www.instagram.com/its.nikhita/" target="_blank">
+                                <i class="fa fa-instagram"></i>
+                            </a>
+                        </div>
+                        <div class="icon">
+                            <a href="https://github.com/Nikhita28" target="_blank">
+                                <i class="fa fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="formBx">
+                <form>
+                    <h3>Message Me</h3>
+                    <input type="text" placeholder="Full Name" name="">
+                    <input type="email" placeholder="Email" name="">
+                    <textarea name="" rows="6" id="" placeholder="Your Message"></textarea>
+                    <input type="submit" value="Send Message" name="">
+                </form>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Creating Footer Layout in HTML -->
+    <footer class="copyright">
+        <p>&copy; 2021, Allrights reserved</p>
+        <p>MADE WITH  <svg class="heart" viewBox="0 0 32 29.6">
+            <path d="M23.6,0c-3.4,0-6.3,2.7-7.6,5.6C14.7,2.7,11.8,0,8.4,0C3.8,0,0,3.8,0,8.4c0,9.4,9.5,11.9,16,21.2
+              c6.1-9.3,16-12.1,16-21.2C32,3.8,28.2,0,23.6,0z"/>
+          </svg>  BY ME </p>
+    </footer>
+</body>
+</html>
